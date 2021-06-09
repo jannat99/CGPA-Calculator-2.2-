@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddSelectCourseActivity"
+    android:background="@drawable/image1">
+
+    <TextView
+        android:id="@+id/selectCourseText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="Select Course"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#F5EC9E"
+        android:textColor="#1A0101"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/add_button_Cse2201"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Cse 2201"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#F5EC9E"
+        android:textColor="#1A0101"
+        android:layout_below="@id/selectCourseText"/>
+
+    <Button
+        android:id="@+id/add_button_Cse2203"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginRight="10dp"
+        android:text="Cse 2203"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#F5EC9E"
+        android:textColor="#1A0101"
+        android:layout_below="@id/selectCourseText"
+        android:layout_toRightOf="@id/add_button_Cse2201"/>
+
+    <Button
+        android:id="@+id/add_button_Cse2207"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Cse 2207"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#F5EC9E"
+        android:textColor="#1A0101"
+        android:layout_below="@id/add_button_Cse2201"/>
+
+    <Button
+        android:id="@+id/add_button_Cse2209"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginRight="10dp"
+        android:text="Cse 2209"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#F5EC9E"
+        android:textColor="#1A0101"
+        android:layout_below="@id/add_button_Cse2203"
+        android:layout_toRightOf="@id/add_button_Cse2207"/>
+
+    <Button
+        android:id="@+id/add_button_Cse2213"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Cse 2207"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#F5EC9E"
+        android:textColor="#1A0101"
+        android:layout_below="@id/add_button_Cse2207"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

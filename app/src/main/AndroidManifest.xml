@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cgpa">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".AddLabCse2214Activity" />
+        <activity android:name=".AddLabCse2210Activity" />
+        <activity android:name=".AddLabCse2208Activity" />
+        <activity android:name=".AddLabCse2202Activity" />
+        <activity android:name=".AddLabCse2200Activity" />
+        <activity android:name=".AddCse2213Activity" />
+        <activity android:name=".AddCse2209Activity" />
+        <activity android:name=".AddCse2207Activity" />
+        <activity android:name=".AddCse2203Activity" />
+        <activity android:name=".AddCse2201Activity" />
+        <activity android:name=".AddSelectLabCoursesActivity" />
+        <activity android:name=".AddSelectCourseActivity" />
+        <activity android:name=".view" />
+        <activity android:name=".record" />
+        <activity android:name=".calculator" /> <!-- <activity android:name=".add2" /> -->
+        <activity android:name=".delete" /> <!-- <activity android:name=".add" /> -->
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".AnimationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>
